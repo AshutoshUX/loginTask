@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .navbar {
+      overflow: hidden;
+      background-color: #20232a;
+      color:white;
+    }
+  
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 16px 20px;
+      text-decoration: none;
+    }
+    
+  
+    .navbar a:hover {
+      background-color: rgb(145, 77, 223);
+      color: white;
+    }
+    
+  
+    .footer {
+      text-align: center;
+      background-color: rgb(21, 167, 204);
+      margin-top: 30px;
+      padding: .5px 0;
+    }
+  
+    .dashboard{
+      display: flexbox;
+      border: 1px solid green;
+      padding: 5px;
+      max-width: 350px;
+      margin: 40px auto;
+      background-color: lightgrey;
+      box-shadow: 10px 10px 5px grey;
+    }
+  
+    .formBox{
+      max-width: 300px;
+      margin: 40px auto;
+    }
+  
